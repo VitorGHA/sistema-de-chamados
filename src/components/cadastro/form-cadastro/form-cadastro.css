@@ -1,0 +1,50 @@
+.form-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: rgb(33, 30, 30);
+    color: #ffffff;
+    width: 30rem;
+    height: 30rem;
+    border-radius: 2rem;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 20px;
+}
+
+.botoes{
+    display: flex;
+    gap: 1rem;
+}
+
+.botao{
+    width: 8rem;
+    padding: 5px;
+    background-color: rgb(7, 135, 58);
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 30, 20);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.botao:hover{
+    background-color: rgb(190, 220, 202);
+    color:rgb(7, 135, 58) ;
+    transition: 0.3s;
+}
+
+.inputs{
+    width: 20rem;
+    height: 1.5rem;
+    font-size: 16px;
+}
+
